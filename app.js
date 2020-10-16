@@ -8,5 +8,5 @@ app.use(express.static("./"));
 // 路由的path方法，即直接填入文件路径
 
 app.listen(8012,function afterListen(){
-    console.log("express running on http://localhost:8012");
+    console.log("express running on http://localhost:8080");
 });
